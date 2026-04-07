@@ -22,10 +22,19 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:src="@drawable/image6"
+        android:src="@drawable/image10"
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
 
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fueling your body effectively is about more than just counting calories; it’s about choosing nutrient-dense foods that sustain your energy and focus.\nPrioritize a mix of complex carbohydrates for lasting fuel, lean proteins for muscle repair, and healthy fats for brain health.\nStaying hydrated and being mindful of portion sizes can significantly improve your daily performance and mood.\nBy making intentional choices at every meal, you create a foundation of wellness that supports both your physical goals and your mental clarity."
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="#040404"
         />
 
 </LinearLayout>

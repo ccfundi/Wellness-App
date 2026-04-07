@@ -7,12 +7,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HealthyRecipes">
+    tools:context=".WeeklyGoals">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Healthy Recipes"
+        android:text="Weekly Goals"
         android:textSize="30sp"
         android:layout_margin="30dp"
         android:textAlignment="center"
@@ -20,20 +20,21 @@
         />
 
     <ImageView
-        android:layout_width="371dp"
+        android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/image11" />
+        android:src="@drawable/main2"
+
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nourishing your body is about finding a balance between flavor and fuel.\nPrioritizing whole ingredients—like lean proteins, vibrant greens, and complex carbohydrates—ensures you maintain steady energy levels throughout your busiest days.\nBy choosing recipes that are as simple to prepare as they are nutrient-dense, you turn healthy eating into a sustainable habit rather than a chore.\nFocus on meals that leave you feeling light yet satisfied, giving your mind and body the clarity they need to perform at their best."
+        android:text="Setting clear intentions for the week ahead transforms your long-term ambitions into manageable actions.\nBy breaking down your larger vision into specific, achievable targets, you create a roadmap that keeps you focused and prevents overwhelm.\nUse this week to prioritize the tasks that move the needle most, ensuring your time and energy are spent with purpose.\nRemember, success is the result of winning one week at a time—stay committed to your plan, adapt when necessary, and celebrate the milestones you reach along the way."
         android:textSize="20dp"
         android:layout_margin="10dp"
         android:textColor="#040404"
         />
-
 
 </LinearLayout>

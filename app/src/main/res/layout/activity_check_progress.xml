@@ -7,12 +7,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HealthyRecipes">
+    tools:context=".CheckProgress">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Healthy Recipes"
+        android:text="Check Progress"
         android:textSize="30sp"
         android:layout_margin="30dp"
         android:textAlignment="center"
@@ -20,20 +20,19 @@
         />
 
     <ImageView
-        android:layout_width="371dp"
+        android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/image11" />
+        android:src="@drawable/image4" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nourishing your body is about finding a balance between flavor and fuel.\nPrioritizing whole ingredients—like lean proteins, vibrant greens, and complex carbohydrates—ensures you maintain steady energy levels throughout your busiest days.\nBy choosing recipes that are as simple to prepare as they are nutrient-dense, you turn healthy eating into a sustainable habit rather than a chore.\nFocus on meals that leave you feeling light yet satisfied, giving your mind and body the clarity they need to perform at their best."
+        android:text="Reflecting on your journey is just as important as the work itself.\nTaking a moment to review your recent activity allows you to see how far you’ve come and identify where you can refine your approach.\nWhether you are hitting every mark or finding areas for adjustment, tracking your growth turns abstract goals into tangible results.\nUse this space to celebrate your consistency, stay accountable to your intentions, and keep your momentum building toward the next milestone."
         android:textSize="20dp"
         android:layout_margin="10dp"
         android:textColor="#040404"
         />
-
 
 </LinearLayout>

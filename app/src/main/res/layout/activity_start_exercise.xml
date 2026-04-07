@@ -7,12 +7,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HealthyRecipes">
+    tools:context=".StartExercise">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Healthy Recipes"
+        android:text="Start Exercise"
         android:textSize="30sp"
         android:layout_margin="30dp"
         android:textAlignment="center"
@@ -20,20 +20,19 @@
         />
 
     <ImageView
-        android:layout_width="371dp"
+        android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/image11" />
+        android:src="@drawable/image8" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nourishing your body is about finding a balance between flavor and fuel.\nPrioritizing whole ingredients—like lean proteins, vibrant greens, and complex carbohydrates—ensures you maintain steady energy levels throughout your busiest days.\nBy choosing recipes that are as simple to prepare as they are nutrient-dense, you turn healthy eating into a sustainable habit rather than a chore.\nFocus on meals that leave you feeling light yet satisfied, giving your mind and body the clarity they need to perform at their best."
+        android:text="The hardest part of any journey is simply beginning, but every workout is an investment in your future self.\nYou don’t need the perfect plan or hours of free time to make an impact; you just need the willingness to move.\nWhether it’s a high-energy session or a quick stretch, physical activity sharpens your mind and builds the discipline necessary to tackle any challenge.\nPush past the initial resistance, focus on your form, and let the momentum of your first few minutes carry you through.\nYour body was made to move—get started today."
         android:textSize="20dp"
         android:layout_margin="10dp"
         android:textColor="#040404"
         />
-
 
 </LinearLayout>

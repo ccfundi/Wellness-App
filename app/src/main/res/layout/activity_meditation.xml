@@ -22,9 +22,18 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:src="@drawable/image6"
+        android:src="@drawable/image9"
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taking a few minutes to pause and clear your mind is essential for maintaining focus and mental clarity.\nBy practicing stillness, you allow the noise of the day to fade, reducing stress and sharpening your concentration for the tasks ahead.\nThis simple act of mindfulness helps you stay grounded, ensuring that you approach your goals with a calm and intentional perspective.\nTurn inward for a moment to recharge—your mind deserves the same consistent care as your body."
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="#040404"
         />
 
 </LinearLayout>

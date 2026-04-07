@@ -7,12 +7,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HealthyRecipes">
+    tools:context=".HydrationAlert">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Healthy Recipes"
+        android:text="Hydration Alert"
         android:textSize="30sp"
         android:layout_margin="30dp"
         android:textAlignment="center"
@@ -20,20 +20,19 @@
         />
 
     <ImageView
-        android:layout_width="371dp"
+        android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/image11" />
+        android:src="@drawable/image13" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nourishing your body is about finding a balance between flavor and fuel.\nPrioritizing whole ingredients—like lean proteins, vibrant greens, and complex carbohydrates—ensures you maintain steady energy levels throughout your busiest days.\nBy choosing recipes that are as simple to prepare as they are nutrient-dense, you turn healthy eating into a sustainable habit rather than a chore.\nFocus on meals that leave you feeling light yet satisfied, giving your mind and body the clarity they need to perform at their best."
+        android:text="Staying hydrated is one of the simplest yet most effective ways to boost your energy, sharpen your focus, and keep your body performing at its peak.\n Water supports everything from healthy digestion to temperature regulation, acting as the fuel your cells need to thrive.\n Take a moment to grab a glass of water now and see that your mind and body will thank you for the refresh!"
         android:textSize="20dp"
         android:layout_margin="10dp"
         android:textColor="#040404"
         />
-
 
 </LinearLayout>
